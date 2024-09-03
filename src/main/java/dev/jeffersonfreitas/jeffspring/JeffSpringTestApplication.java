@@ -5,6 +5,6 @@ import dev.jeffersonfreitas.jeffspring.web.JeffSpringApplication;
 public class JeffSpringTestApplication {
 
 	public static void main(String[] args) {
-		JeffSpringApplication.run();
+		JeffSpringApplication.run(JeffSpringTestApplication.class);
 	}
 }
