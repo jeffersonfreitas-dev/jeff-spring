@@ -4,6 +4,12 @@
 	<artifactId>jeffspring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JeffSpring - Web framework</name>
+	<packaging>jar</packaging>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -11,5 +17,11 @@
 			<artifactId>tomcat-embed-core</artifactId>
 			<version>10.1.28</version>
 		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+
 	</dependencies>
 </project>
